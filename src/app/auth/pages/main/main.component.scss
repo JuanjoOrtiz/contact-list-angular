@@ -1,0 +1,22 @@
+
+@import '../../../../styles.scss';
+
+.container{
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.wrapper__form{
+    width: 500px;
+    height: 600px;
+    background-color: $white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
